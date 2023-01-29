@@ -9,7 +9,7 @@ body {
     flex-direction: column;
     min-height: 100vn;
     justify-content: flex-start;
-    background: white;
+    background: rgb(209, 205, 205);
 }
 
 header {
@@ -29,7 +29,7 @@ button {
     letter-spacing: normal;
     line-height: normal;
     max-width: fit-content;
-    padding: 20px;
+    padding: 18px;
     text-align: center;
     transition-duration: 0.10s;
     transition-property: background-color;
@@ -41,7 +41,7 @@ button {
 main {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .header {
@@ -75,4 +75,32 @@ main {
 .startButton {
     font-size: 1.2em;
     text-align: center;
+}
+
+.stats {
+    float: inline-end;
+}
+
+
+.highScores-container {
+    font-size: 1.0em;
+    text-align: left;
+}
+
+.timeLeft {
+    font-size: 1.0em;
+    text-align: right;
+}
+
+
+.answer1a {
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 15px;
+}
+
+@media screen and  max-width: 2000px {
+    main {
+        flex-direction: column;
+    }
 }
