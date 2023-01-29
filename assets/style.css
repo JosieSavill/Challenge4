@@ -78,16 +78,23 @@ main {
 }
 
 .stats {
-    float: inline-end;
+    
+    
+    
+    
 }
 
 
 .highScores-container {
-    font-size: 1.0em;
-    text-align: left;
+    font-size: 1.2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #8708ee;
+    text-align: center;
+    padding: 20px;
+    
 }
 
-.timeLeft {
+.countdown {
     font-size: 1.0em;
     text-align: right;
 }
@@ -107,4 +114,8 @@ main {
 
 section {
     margin: 20px auto;
+}
+
+.enterInitials {
+    
 }
