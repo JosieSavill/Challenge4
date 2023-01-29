@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vn;
+    justify-content: flex-start;
+    background: white;
+}
+
+header {
+    padding: 30px;
+    text-align: center;
+    background: radial-gradient(ellipse, rgb(238, 180, 238), rgb(230, 28, 203));
+    color: black;
+    border-bottom: 30px darkblue;
+}
+
+button {
+    background: radial-gradient(ellipse, #cd95f3, #8708ee);
+    color: white;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    letter-spacing: normal;
+    line-height: normal;
+    max-width: fit-content;
+    padding: 20px;
+    text-align: center;
+    transition-duration: 0.10s;
+    transition-property: background-color;
+    transition-timing-function: linear;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.header {
+    font-size: 4em;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.introduction {
+    font-size: 2em;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 25px;
+}
+
+.instructions {
+    font-size: 1.5em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.clickBelow {
+    font-size: 1.5em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+
+.startButton {
+    font-size: 1.2em;
+    text-align: center;
+}
