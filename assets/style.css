@@ -75,6 +75,11 @@ main {
 .startButton {
     font-size: 1.2em;
     text-align: center;
+    
+}
+
+.startButton:hover {
+    background-color: #f3ecf8;
 }
 
 .stats {
