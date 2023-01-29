@@ -104,3 +104,7 @@ main {
         flex-direction: column;
     }
 }
+
+section {
+    margin: 20px auto;
+}
