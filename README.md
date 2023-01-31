@@ -17,10 +17,6 @@ After clicking the save button, then the high score is displayed along with the 
 
 
 
-Example of Quiz, cntrl + click here: 
-
-![A user clicks through an interactive coding quiz, then enters initials to save the high score before resetting and starting over.](./Assets/04-web-apis-homework-demo.gif)
-
 
 
 ⌛⌛⌛
