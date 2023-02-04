@@ -1,4 +1,4 @@
-## CHallenge 4
+## Challenge 4
 
 ![JavaScriptQuizChallenge](https://user-images.githubusercontent.com/120339032/216792180-a0803c36-8cad-49bb-bbb1-4fd2d553ad18.png)
 
